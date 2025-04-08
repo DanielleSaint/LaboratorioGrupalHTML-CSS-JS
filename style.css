@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Merienda:wght@300..900&family=Slackey&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px;
+    font-family: "Slackey", sans-serif;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.cardLetra{
+ background-color: rgb(222, 255, 195);
+ border-width: 2px;
+ border-style: solid;
+ border-radius: 25px;
+ border-color: rgb(255, 115, 0);
+ width: 220px;
+ height: 310px;
+ padding: 10px;
+ margin: 5px;
+}
+
+.cardLetra:hover{
+    border-color: blueviolet;
+    cursor: pointer;
+}
+
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 10px;
+}
+img{
+    margin: 10px;
+    height: 170px;
+    display: flex;
+    justify-self: center;
+}
+
+h1:hover{
+    color: rgb(255, 5, 5);
+}
+.cardLetra:hover{
+    border-color: blueviolet;
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color:  rgb(46, 95, 6);
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    border-top: 4px solid #3498db;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
