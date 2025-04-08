@@ -22,16 +22,24 @@ body{
  padding: 10px;
  margin: 5px;
 }
+
+
 h1{
     font-size: 80px;
     text-align: center;
     margin: 10px;
 }
+
 img{
     margin: 10px;
     height: 170px;
     display: flex;
     justify-self: center;
 }
-
-
+h1:hover{
+    color: rgb(255, 5, 5);
+}
+.cardLetra:hover{
+    border-color: blueviolet;
+    cursor: pointer;
+}
