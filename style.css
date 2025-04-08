@@ -33,4 +33,10 @@ img{
     display: flex;
     justify-self: center;
 }
-
+h1:hover{
+    color: rgb(255, 5, 5);
+}
+.cardLetra:hover{
+    border-color: blueviolet;
+    cursor: pointer;
+}
