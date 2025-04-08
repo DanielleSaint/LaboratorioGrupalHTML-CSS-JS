@@ -22,7 +22,7 @@ function applyRandomColors(element) {
 // Seleccionamos todos los h1 de las tarjetas
 const headers = document.querySelectorAll('.cardLetra h1');
 
-// A cada uno le asignamos un evento de clic
+// A cada uno le asignamos un evento de click
 headers.forEach(header => {
     header.addEventListener('click', () => {
         const card = header.parentElement; // obtenemos el div.cardLetra
