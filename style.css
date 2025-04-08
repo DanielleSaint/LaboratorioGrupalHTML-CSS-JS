@@ -22,6 +22,10 @@ body{
  padding: 10px;
  margin: 5px;
 }
+.cardLetra:hover{
+    border-color: blueviolet;
+    cursor: pointer;
+}
 h1{
     font-size: 80px;
     text-align: center;
