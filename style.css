@@ -22,6 +22,13 @@ body{
  padding: 10px;
  margin: 5px;
 }
+
+.cardLetra:hover{
+    border-color: blueviolet;
+    cursor: pointer;
+}
+
+
 h1{
     font-size: 80px;
     text-align: center;
@@ -33,10 +40,58 @@ img{
     display: flex;
     justify-self: center;
 }
+
 h1:hover{
     color: rgb(255, 5, 5);
 }
 .cardLetra:hover{
     border-color: blueviolet;
     cursor: pointer;
+}
+
+
+footer {
+    background-color:  rgb(46, 95, 6);
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    border-top: 4px solid #3498db;
+    border-bottom: 4px solid #3498db;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.header{
+    background-color:  rgb(46, 95, 6);
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 4px solid #3498db;
+    border-bottom: 4px solid #3498db;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
 }
