@@ -27,5 +27,28 @@ headers.forEach(header => {
     header.addEventListener('click', () => {
         const card = header.parentElement; // obtenemos el div.cardLetra
         applyRandomColors(card); // aplicamos colores al contenedor
+});
+});
+
+//Para volver a reiniciar el abecedario
+const cards = document.querySelectorAll('.cardLetra');
+const estilosOriginales = [];
+
+cards.forEach(card => {
+    const estilos = getComputedStyle(card);
+    estilosOriginales.push({
+        element: card,
+        backgroundColor: estilos.backgroundColor,
+        borderColor: estilos.borderColor,
+        color: estilos.color
     });
 });
+
+// Función llamada por el botón "Reiniciar"
+function buttonReset() {
+    estilosOriginales.forEach(item => {
+        item.element.style.backgroundColor = item.backgroundColor;
+        item.element.style.borderColor = item.borderColor;
+        item.element.style.color = item.color;
+    });
+}
