@@ -13,6 +13,7 @@ body{
 }
 .cardLetra{
  background-color: rgb(222, 255, 195);
+ box-sizing: border-box;
  border-width: 2px;
  border-style: solid;
  border-radius: 25px;
@@ -33,7 +34,7 @@ h1{
 }
 img{
     margin: 10px;
-    height: 170px;
+    height: 150px;
     display: flex;
     justify-self: center;
 }
@@ -42,6 +43,7 @@ h1:hover{
 }
 footer {
     background-color:  rgb(46, 95, 6);
+    box-sizing: border-box;
     color: white;
     padding: 20px 10px;
     text-align: center;
@@ -71,6 +73,7 @@ h3{
 }
 .header{
     background-color:  rgb(46, 95, 6);
+    box-sizing: border-box;
     color: white;
     padding: 20px 10px;
     text-align: center;
@@ -91,9 +94,58 @@ button {
     transition: all 0.3s ease;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     font-family: "Slackey", sans-serif;
-  }
+}
   
-  button:hover {
+button:hover {
     transform: scale(1.1);
     background-color: #2980b9;
-  }
+}
+@media (max-width: 600px) {
+.cardLetra{
+    background-color: rgb(222, 255, 195);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 115, 0);
+    width: 110px;
+    height: 155px;
+    padding: 5px;
+    margin: 2.5px;
+}
+h1{
+    font-size: 40px;
+}
+img{
+    margin: 5px;
+    height: 75px;
+    display: flex;
+    justify-self: center;
+}
+.header h2 {
+    font-size: 25px;
+}
+.header h3 {
+    font-size: 10px;
+}
+button {
+    font-size: 12px;
+    padding: 8px 16px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 12px;
+}
+}
