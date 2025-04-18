@@ -149,3 +149,36 @@ p{
     font-size: 12px;
 }
 }
+/* Dispositivos medianos: tablets, móviles grandes (601px a 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+h1 {
+    font-size: 60px;
+}
+.cardLetra {
+    width: 160px;
+    height: 220px;
+    padding: 8px;
+    margin: 4px;
+}
+img {
+    height: 100px;
+}
+.row {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button {
+    font-size: 14px;
+    padding: 10px 18px;
+}
+footer, .header {
+    font-size: 12px;
+    padding: 15px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 16px;
+}
+}
