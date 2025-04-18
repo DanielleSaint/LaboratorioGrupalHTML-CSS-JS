@@ -9,7 +9,8 @@ body{
 }
 .row{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .cardLetra{
  background-color: rgb(222, 255, 195);
@@ -35,8 +36,7 @@ h1{
 img{
     margin: 10px;
     height: 150px;
-    display: flex;
-    justify-self: center;
+    display: block;
 }
 h1:hover{
     color: rgb(255, 5, 5);
@@ -118,8 +118,7 @@ h1{
 img{
     margin: 5px;
     height: 75px;
-    display: flex;
-    justify-self: center;
+    display: block;
 }
 .header h2 {
     font-size: 25px;
@@ -139,6 +138,8 @@ button {
 footer{
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+    padding: 10px;
 }
 .footer-content{
     display: flex;
